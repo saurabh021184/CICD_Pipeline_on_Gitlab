@@ -95,19 +95,19 @@
 7. These are the variables that I created as part of this project in 
    Settings -> CICD -> Variables section:
    
-   ARTIFACTORY_ADDRESS -> registry.gitlab.com/mycicdpipeline/cicdpipelinewithtestingstage/docker
-   ARTIFACTORY_APIKEY -> xxxxxxxx
-   ARTIFACTORY_USER -> samathur
-   DOCKER_DEVELOPMENT_LOCAL -> registry.gitlab.com
-   EC2_SSH_KEY -> xxxxxx
-   HOST_USER -> ec2-user
-   MASTER_NODE -> ec2-3-94-54-65.compute-1.amazonaws.com
+   - ARTIFACTORY_ADDRESS -> registry.gitlab.com/mycicdpipeline/cicdpipelinewithtestingstage/docker
+   - ARTIFACTORY_APIKEY -> xxxxxxxx
+   - ARTIFACTORY_USER -> samathur
+   - DOCKER_DEVELOPMENT_LOCAL -> registry.gitlab.com
+   - EC2_SSH_KEY -> xxxxxx
+   - HOST_USER -> ec2-user
+   - MASTER_NODE -> ec2-3-94-54-65.compute-1.amazonaws.com
    
    
 # References:
-  https://docs.gitlab.com/ee/ci/cloud_deployment/
-  https://www.youtube.com/watch?v=PGyhBwLyK2U
-  https://gitlab.com/gitlab-course-public/freecodecamp-gitlab-ci/-/blob/main/docs/pipeline-configs/lesson-4-10-.gitlab-ci.yml
-  https://aws.plainenglish.io/deploy-from-gitlab-to-aws-ec2-48a45c00ad6a
-  https://www.1strategy.com/blog/2021/02/16/deploying-gitlab-runners-on-ec2/
-  https://docs.gitlab.com/ee/ci/variables/predefined_variables.html#predefined-variables-reference
+  1. https://docs.gitlab.com/ee/ci/cloud_deployment/
+  1. https://www.youtube.com/watch?v=PGyhBwLyK2U
+  1. https://gitlab.com/gitlab-course-public/freecodecamp-gitlab-ci/-/blob/main/docs/pipeline-configs/lesson-4-10-.gitlab-ci.yml
+  1. https://aws.plainenglish.io/deploy-from-gitlab-to-aws-ec2-48a45c00ad6a
+  1. https://www.1strategy.com/blog/2021/02/16/deploying-gitlab-runners-on-ec2/
+  1. https://docs.gitlab.com/ee/ci/variables/predefined_variables.html#predefined-variables-reference
