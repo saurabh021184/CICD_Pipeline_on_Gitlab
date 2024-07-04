@@ -41,3 +41,11 @@ To run the database migrations, execute the `run_flyway_migration.sh` script:
 #if you dont have permissions to run the above script run the below command and try again:
 chmod +x ./run_flyway_migration.sh
 ```
+```bash
+  echo "Starting Flyway migration..."
+  docker run --rm \
+    -v "${tenant_migrations_path}:/flyway/sql" \
+    -w /flyway/sql \
+    --env-file "$env_file_path" \
+    flyway/flyway migrate
+```
